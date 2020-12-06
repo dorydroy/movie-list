@@ -8,7 +8,7 @@ const serviceAccount = require("./serviceAccountKey.json");
 const jwt = require('jsonwebtoken');
 const md5 = require('md5');
 
-const port=4201;
+const port=4200;
 
 var jsonParser = bodyParser.json()
 admin.initializeApp({
